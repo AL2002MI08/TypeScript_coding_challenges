@@ -1,7 +1,7 @@
 class Person {
-    ssn: string;
-    firstName: string;
-    lastName: string
+    protected ssn: string;
+    protected firstName: string;
+    private lastName: string
     constructor(ssn : string,firstName: string,lastName: string ){
         this.ssn = ssn;
         this.firstName = firstName;
@@ -13,3 +13,4 @@ class Person {
 }
 let myName = new Person('12-20-22', 'John','Fray')
 console.log(myName.getName())
+// console.log(myName.ssn)

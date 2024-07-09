@@ -11,3 +11,4 @@ var Person = /** @class */ (function () {
 }());
 var myName = new Person('12-20-22', 'John', 'Fray');
 console.log(myName.getName());
+console.log(myName.ssn);
