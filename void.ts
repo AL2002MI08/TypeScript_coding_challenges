@@ -1,7 +1,7 @@
 function callNonExistentFunction(): void {
     try {
       // Attempt to call a non-existent function
-      nonExistentFunction();
+      callNonExistentFunction();;
     } catch (error) {
       console.error("Custom Error: The function does not exist.");
     }
